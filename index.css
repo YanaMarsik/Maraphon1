@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 13px auto 15px;
+}
+
+ .flex {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .header_ul {
+     display: flex;
+     gap: 62px;
+ }
+
+.header_link {
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    width: 157px;
+    height: 40px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+.button:hover {
+    background: #472a62;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.maine {
+ background: #F6BED9;
+    padding: 58px 0 59px;
+}
+
+.maine_title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    max-width: 470px;
+}
+
+.maine_span_violet {
+  color:  #6F2DFF;
+}
+
+.maine_text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 438px;
+    margin: 18px 0;
+}
+
+.maine_text_bold {
+    font-weight: bold;
+}
+
+.maine_input {
+    width: 268px;
+    height: 45px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+
+.maine_input::placeholder {
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0,0,0,0.27);
+}
+
+.maine_input:focus {
+    outline: none;
+}
+
+.maine_button {
+    width: 187px;
+    height: 45px;
+    margin-left: 9px;
+}
+
+.footer {
+    background: #20003C;
+    padding: 58px 0;
+}
+
+.footer_ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.footer_link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+
+.footer_button {
+    width: 157px;
+    height: 40px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+.footer_button:hover {
+    background: #472a62;
+    transition: 2s;
+    cursor: pointer;
+}
